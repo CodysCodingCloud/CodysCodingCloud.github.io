@@ -49,6 +49,7 @@ p {
 	display: flex;
 	justify-content: flex-end;
 	height: 3rem;
+	align-items: center;
 }
 #navbar li {
 	display: inline;
@@ -58,8 +59,8 @@ p {
 	text-decoration: none;
 	background-color: var(--dpblue);
 	color: white;
-	padding: 0.5rem 2em;
-	margin-right: 1rem;
+	padding: 0.5em 2em;
+	margin-right: 1em;
 	border-radius: 10px;
 }
 .button:hover {
