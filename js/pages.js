@@ -1,5 +1,5 @@
 const data = [  {
-    "name": "Tribute Page",
+    "name": "Tribute Page for Grandpa",
     "image": "../images/tribute preview.png",
     "alt": "tribute for Pong CDhau Chan",
     "link": "https://codyscodingcloud.github.io/Pong-Chao-Chan/",
