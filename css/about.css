@@ -34,7 +34,6 @@ html {
 	margin-left: 0.5em;
 	color: white;
 }
-
 #navbar ul {
 	list-style: none;
 	display: flex;
@@ -57,13 +56,69 @@ html {
 	background-color: var(--lpblue);
 }
 
-#project {
+main {
+	background-color: var(--lpblue);
+	padding: 4rem 0em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1 0 auto;
+	color: white;
+}
+#about {
 	display: flex;
 	justify-content: space-around;
 	flex: 1 0 auto;
 }
+#about > div {
+	margin-bottom: 1em;
+	flex-basis: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.description {
+	text-indent: 50px;
+}
+#minid {
+	font-style: italic;
+}
+#about h1 {
+	font-size: 2rem;
+}
+#about h2 {
+	font-size: 1.5rem;
+}
+#preview {
+	display: block;
+	width: 100%;
+}
+.sub_heading {
+	margin-top: 1rem;
+	/* align-self: flex-start; */
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin-bottom: 0.5rem;
+}
+.sub_heading2 {
+	font-size: 1.15rem;
+	align-self: flex-start;
+}
+.stack_container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.stack_cotainer p {
+	text-indent: 0;
+	text-align: center;
+}
+.tech_icon_container > svg {
+	width: 120px;
+	height: 120px;
+}
 
 #contact {
+	width: 100%;
 	background-color: var(--pblue);
 	height: 8rem;
 }
@@ -94,7 +149,7 @@ footer {
 	font-style: italic;
 }
 @media (max-width: 768px) {
-	#projects {
+	#about {
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
