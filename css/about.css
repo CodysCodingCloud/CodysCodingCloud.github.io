@@ -1,0 +1,112 @@
+:root {
+	--pblue: #003b6f;
+	--lpblue: hsl(208, 100%, 40%);
+	--dpblue: hsl(208, 100%, 12%);
+}
+html {
+	scroll-padding-top: 3rem;
+}
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: none;
+}
+#navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: var(--pblue);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#logo {
+	display: flex;
+	margin-left: 1em;
+}
+#logo img {
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+}
+#logo h1 {
+	margin-left: 0.5em;
+	color: white;
+}
+
+#navbar ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	height: 3rem;
+}
+#navbar li {
+	display: inline;
+	margin-top: 1rem;
+}
+.button {
+	text-decoration: none;
+	background-color: var(--dpblue);
+	color: white;
+	padding: 0.5rem 2em;
+	margin-right: 1rem;
+	border-radius: 10px;
+}
+.button:hover {
+	background-color: var(--lpblue);
+}
+
+#project {
+	display: flex;
+	justify-content: space-around;
+	flex: 1 0 auto;
+}
+
+#contact {
+	background-color: var(--pblue);
+	height: 8rem;
+}
+#contact h2 {
+	padding: 1rem 0;
+	text-align: center;
+	color: hsl(208, 100%, 90%);
+}
+#contact div {
+	display: flex;
+	justify-content: space-evenly;
+}
+#contact .button {
+	justify-self: center;
+	align-self: center;
+}
+.contact_logo {
+	height: 1rem;
+	padding-right: 0.1em;
+}
+footer {
+	background-color: hsl(208, 100%, 6%);
+	color: white;
+	text-align: center;
+	font-size: small;
+	font-weight: lighter;
+	padding: 1em;
+	font-style: italic;
+}
+@media (max-width: 768px) {
+	#projects {
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+	#project-tile img {
+		display: block;
+		width: 80vw;
+		height: auto;
+		margin: 0.4em auto;
+	}
+	#project-tile:hover img {
+		width: 90vw;
+		height: auto;
+	}
+}
