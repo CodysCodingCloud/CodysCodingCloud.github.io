@@ -1,7 +1,7 @@
 const data = [
 	{
 		name: "Tribute Page for Grandpa",
-		image: "../images/tribute_preview.png",
+		image: "/images/tribute_preview.png",
 		alt: "tribute for Pong CDhau Chan",
 		link: "https://codyscodingcloud.github.io/Pong-Chao-Chan/",
 		description:
@@ -9,7 +9,7 @@ const data = [
 	},
 	{
 		name: "Courage Shopper",
-		image: "../images/courage_shopoper.png",
+		image: "/images/courage_shopoper.png",
 		alt: "Courage_Shopoperwebsite",
 		link: "https://courage-shopper.herokuapp.com/",
 		description:
@@ -17,7 +17,7 @@ const data = [
 	},
 	{
 		name: "Optimate8",
-		image: "../images/optimate8.png",
+		image: "/images/optimate8.png",
 		alt: "Optimate8",
 		link: "https://optimate8.herokuapp.com/",
 		description:

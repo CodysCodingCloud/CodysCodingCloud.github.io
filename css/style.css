@@ -34,15 +34,13 @@ html {
 	margin-left: 0.5em;
 	color: white;
 }
-#navbar ul {
-	list-style: none;
+.nav_buttons {
 	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
 	justify-content: flex-end;
 	height: 3rem;
-}
-#navbar li {
-	display: inline;
-	margin-top: 1rem;
+	align-items: center;
 }
 .button {
 	text-decoration: none;

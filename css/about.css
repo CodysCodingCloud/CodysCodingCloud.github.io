@@ -12,6 +12,7 @@ html {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	text-decoration: none;
 }
+
 #navbar {
 	position: fixed;
 	width: 100%;
@@ -34,15 +35,13 @@ html {
 	margin-left: 0.5em;
 	color: white;
 }
-#navbar ul {
-	list-style: none;
+.nav_buttons {
 	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
 	justify-content: flex-end;
 	height: 3rem;
-}
-#navbar li {
-	display: inline;
-	margin-top: 1rem;
+	align-items: center;
 }
 .button {
 	text-decoration: none;
@@ -58,7 +57,7 @@ html {
 
 main {
 	background-color: var(--lpblue);
-	padding: 4rem 0em;
+	padding-top: 4em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -69,10 +68,11 @@ main {
 	display: flex;
 	justify-content: space-around;
 	flex: 1 0 auto;
+	flex-wrap: wrap;
 }
 #about > div {
 	margin-bottom: 1em;
-	flex-basis: 45%;
+	flex-basis: 40%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -153,15 +153,5 @@ footer {
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
-	}
-	#project-tile img {
-		display: block;
-		width: 80vw;
-		height: auto;
-		margin: 0.4em auto;
-	}
-	#project-tile:hover img {
-		width: 90vw;
-		height: auto;
 	}
 }
