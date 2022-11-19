@@ -1,15 +1,15 @@
 const data = [
 	{
 		name: "Tribute Page for Grandpa",
-		image: "/images/tribute_preview.png",
-		alt: "tribute for Pong CDhau Chan",
+		image: "images/tribute_preview.png",
+		alt: "tribute for Pong Chau Chan",
 		link: "https://codyscodingcloud.github.io/Pong-Chao-Chan/",
 		description:
 			"This was my very first project that I made. It was an extremely simple static site that I made back when I was just starting out, and learning by self study. IT was a hectic time where I was spending my time at work doing OT and my free time on learning how to code through freecodecamp.org.\n I had a lot of fun learning the basics of HTML, CSS, and javascript. However as I neared the end of the the responsive design module, I faced mini project to make a tribute page and my grandfather's passing at the same time. It just felt appropriate to make the tribute page for grandpa at the time. \n I wanted a way to rememebr him and for my family to have a way to see his life. As I made the site, I enjoyed the process of remembering him and the building of each line for him, while fussing over the CSS to make what I wanted. I knew at that moment that I wanted a career change. A few months down the line late, I joined Fullstacks academy.",
 	},
 	{
 		name: "Courage Shopper",
-		image: "./images/courage_shopoper.png",
+		image: "images/courage_shopoper.png",
 		alt: "Courage_Shopper",
 		link: "https://courage-shopper.herokuapp.com/",
 		description:
@@ -27,11 +27,11 @@ const data = [
 ];
 const placeholder = {
 	name: "Coming Soon",
-	image: "../images/cloudy pig.png",
-	alt: "tribute for Pong CDhau Chan",
+	image: "images/cloudy pig.png",
+	alt: "cloudy pig",
 	link: "https://github.com/CodysCodingCloud",
 	description:
-		"My next project will be built and posted here as soon as it is deployed. Please chec k my GitHub for any projects in development",
+		"My next project will be built and posted here as soon as it is deployed. Please checkout my GitHub for any projects in development",
 };
 
 const urlSearchParams = new URLSearchParams(window.location.search);
