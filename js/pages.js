@@ -9,15 +9,15 @@ const data = [
 	},
 	{
 		name: "Courage Shopper",
-		image: "/images/courage_shopoper.png",
-		alt: "Courage_Shopoperwebsite",
+		image: "./images/courage_shopoper.png",
+		alt: "Courage_Shopper",
 		link: "https://courage-shopper.herokuapp.com/",
 		description:
 			"Courage is an E-commerce website inspired by Halloween that was just around the corner when we started developing it. It showcases the integration of a Postgres database system and algolia so that it would have both CRUD and text-based search functionalities.\n",
 	},
 	{
 		name: "Optimate8",
-		image: "/images/optimate8.png",
+		image: "images/optimate8.png",
 		alt: "Optimate8",
 		link: "https://optimate8.herokuapp.com/",
 		description:
@@ -45,6 +45,7 @@ const description = document.getElementById("description");
 let currentData = data[params.project] || placeholder;
 
 projectImg.src = currentData.image;
+projectImg.alt = currentData.alt;
 projectName.innerText = currentData.name;
 link.innerText = currentData.name;
 link.href = currentData.link;
