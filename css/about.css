@@ -103,7 +103,6 @@ main {
 }
 .sub_heading {
 	margin-top: 1rem;
-	/* align-self: flex-start; */
 	font-size: 1.25rem;
 	font-weight: 500;
 	margin-bottom: 0.5rem;
