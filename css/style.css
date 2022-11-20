@@ -53,6 +53,7 @@ html {
 	padding: 0.5rem 2em;
 	margin-right: 1rem;
 	border-radius: 10px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .nav_buttons a {
 	color: white;
@@ -95,6 +96,7 @@ html {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
 }
 #project-tile:hover {
 	opacity: 0.8;
@@ -226,12 +228,12 @@ footer {
 	}
 	#project-tile img {
 		display: block;
-		width: 80vw;
+		width: 80%;
 		height: auto;
 		margin: 0.4em auto;
 	}
 	#project-tile:hover img {
-		width: 90vw;
+		width: 90%;
 		height: auto;
 	}
 
@@ -278,7 +280,7 @@ footer {
 }
 @media (max-width: 500px) {
 	#project-tile {
-		width: 100%;
+		width: 95%;
 	}
 	#contact {
 		display: flex;

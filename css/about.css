@@ -54,6 +54,7 @@ html {
 	padding: 0.5rem 2em;
 	margin-right: 1rem;
 	border-radius: 10px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .nav_buttons a {
 	color: white;

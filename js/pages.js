@@ -66,7 +66,7 @@ if (pagenum <= 0) {
 	prevlink.innerText = "home";
 	prevlink.href = "index.html";
 } else {
-	prevlink.innerText = "previous";
+	prevlink.innerText = "older";
 	prevlink.href = `pages.html?project=${pagenum - 1}`;
 }
 nextlink.innerText = "next";
