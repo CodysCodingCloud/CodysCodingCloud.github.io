@@ -63,13 +63,15 @@ html {
 }
 #welcome-section {
 	background: linear-gradient(90deg, #0d0208, #003b00, #008f11);
-	color: #00ff41;
+	color: #f1fff4;
 	text-align: center;
 	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	/* text-shadow: 2px 2px 2px rgb(13, 2, 8, 0.5); */
 }
+
 #welcome-section div {
 	font-size: 3rem;
 	margin: auto;
