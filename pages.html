@@ -52,5 +52,15 @@
 		</main>
 		<footer>Profolio page &copy;2022 CodysCodingCloud</footer>
 		<script defer src="js/pages.js"></script>
+		<script>
+			window.addEventListener("click", (e) => {
+				let pie = document.getElementById("menu-toggle");
+				if (e.target.id !== "menu-toggle") {
+					pie.checked = false;
+				} else {
+					pie.checked = true;
+				}
+			});
+		</script>
 	</body>
 </html>

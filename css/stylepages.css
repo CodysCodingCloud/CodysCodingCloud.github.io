@@ -32,7 +32,6 @@ p {
 }
 #logo {
 	display: flex;
-	margin-left: 1em;
 	padding: 0.5em 0;
 }
 #logo img {

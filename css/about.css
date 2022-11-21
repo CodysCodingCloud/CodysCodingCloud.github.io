@@ -33,7 +33,6 @@ html {
 	border-radius: 50%;
 }
 #logo h1 {
-	margin-left: 0.5em;
 	color: white;
 }
 .nav_buttons {
@@ -183,19 +182,24 @@ footer {
 	display: block;
 	background-color: #fff;
 	position: absolute;
-	height: 4px;
-	width: 30px;
+	height: 0.25rem;
+	width: 1.875rem;
 	transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
 	border-radius: 0.125rem;
 	margin-right: 2em;
 }
 
-.menu-button::before {
+.menu-button:before {
 	content: "";
 	margin-top: -0.5rem;
 }
-
-.menu-button::after {
+.menu-button:before(2) {
+	background-color: #fff;
+	height: 2rem;
+	content: "";
+	margin-top: -0.5rem;
+}
+.menu-button:after {
 	content: "";
 	margin-top: 0.5rem;
 }

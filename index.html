@@ -118,5 +118,20 @@
 			</section>
 		</main>
 		<footer>Profolio page &copy;2022 CodysCodingCloud</footer>
+		<script>
+			window.addEventListener("click", (e) => {
+				let pie = document.getElementById("menu-toggle");
+				if (
+					e.target.className === "menu-button" ||
+					e.target.id === "menu-toggle"
+				) {
+					e.preventDefault();
+					pie.checked = !pie.checked;
+				}
+				if (e.target.className !== "menu-button") {
+					pie.checked = false;
+				}
+			});
+		</script>
 	</body>
 </html>
