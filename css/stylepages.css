@@ -52,7 +52,7 @@ p {
 	height: 3rem;
 	align-items: center;
 }
-.nav_buttons div {
+.nav_buttons a {
 	overflow: hidden;
 }
 .button {
@@ -239,19 +239,19 @@ footer {
 		width: 100%;
 		text-align: center;
 	}
-	#menu-toggle ~ .nav_buttons div {
+	#menu-toggle ~ .nav_buttons a {
 		height: 0;
 		margin: 0;
 		padding: 0;
 		border: 0;
 		transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 	}
-	#menu-toggle:checked ~ .nav_buttons div {
+	#menu-toggle:checked ~ .nav_buttons a {
 		border: 1px solid #333;
 		height: 2.5rem;
 		transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 	}
-	.nav_buttons > div {
+	.nav_buttons > a {
 		display: flex;
 		justify-content: center;
 		align-items: center;
