@@ -118,11 +118,14 @@ main {
 	text-indent: 0;
 	text-align: center;
 }
-.tech_icon_container > svg {
+.tech_icon_container > svg,
+.tech_icon_container > img {
 	width: 120px;
 	height: 120px;
 }
-
+.tech_icon_container > p {
+	text-align: center;
+}
 #contact {
 	width: 100%;
 	background-color: var(--pblue);
