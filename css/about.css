@@ -85,6 +85,7 @@ main {
 	align-items: center;
 }
 .description {
+        margin: 0 1em;
 	text-indent: 50px;
 }
 #minid {
