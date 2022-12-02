@@ -19,7 +19,7 @@ body {
 	color: white;
 }
 p {
-	text-indent: 50px;
+	/* text-indent: 50px; */
 }
 #navbar {
 	position: fixed;
@@ -78,20 +78,45 @@ main {
 	flex-direction: column;
 	align-items: center;
 	flex: 1 0 auto;
+	/* padding: 0 1em; */
 }
 #project {
 	display: flex;
 	justify-content: space-around;
 	flex: 1 0 auto;
 }
+#text_content {
+	margin: 0 0.5em;
+}
 #name {
 	font-size: 3rem;
 }
+.sub_heading {
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin-bottom: 0.5em;
+	align-self: flex-start;
+}
+#stack_container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tech_icon_container p {
+	/* text-indent: 0; */
+	text-align: center;
+}
+.tech_icon_container > svg,
+.tech_icon_container > img {
+	width: 120px;
+	height: 120px;
+}
+.tech_icon_container > p {
+	text-align: center;
+}
 #description {
-	margin: 1em;
+	/* margin: 0 1em; */
 	font-size: 1rem;
 }
-
 #preview {
 	display: block;
 	width: 100%;

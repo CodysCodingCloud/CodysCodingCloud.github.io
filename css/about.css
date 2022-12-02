@@ -72,7 +72,7 @@ main {
 	color: white;
 }
 #about {
-        margin: 0 1em;
+	margin: 0 1em;
 	display: flex;
 	justify-content: space-around;
 	flex: 1 0 auto;
@@ -85,8 +85,9 @@ main {
 	flex-direction: column;
 	align-items: center;
 }
-.description {
-	text-indent: 50px;
+.description p {
+	/* text-indent: 50px; */
+	margin-bottom: 1em;
 }
 #minid {
 	font-style: italic;
@@ -105,18 +106,19 @@ main {
 	margin-top: 1rem;
 	font-size: 1.25rem;
 	font-weight: 500;
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.5em;
 }
 .sub_heading2 {
 	font-size: 1.15rem;
 	align-self: flex-start;
+	margin-bottom: 0.5em;
 }
 .stack_container {
 	display: flex;
 	flex-wrap: wrap;
 }
 .stack_cotainer p {
-	text-indent: 0;
+	/* text-indent: 0; */
 	text-align: center;
 }
 .tech_icon_container > svg,
