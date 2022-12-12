@@ -15,7 +15,7 @@ const data = [
 		name: "Courage Shopper",
 		image: "images/courage_shopoper.png",
 		alt: "Courage_Shopper",
-		link: "https://courage-shopper.herokuapp.com/",
+		link: "https://www.courage.codyscodingcloud.com/",
 		techStack: [
 			{ name: "Javascript", img: "images/javascript.svg" },
 			{ name: "HTML", img: "images/html5.svg" },
@@ -35,7 +35,7 @@ const data = [
 		name: "Optimate8",
 		image: "images/optimate8.png",
 		alt: "Optimate8",
-		link: "https://optimate8.herokuapp.com/",
+		link: "http://optim8.codyscodingcloud.com/",
 		techStack: [
 			{ name: "Javascript", img: "images/javascript.svg" },
 			{ name: "HTML", img: "images/html5.svg" },
